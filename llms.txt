@@ -1,1 +1,116 @@
-d
+# International Bookkeeping Registry
+
+> International Bookkeeping Registry is a structured professional registry of bookkeeping operations by jurisdiction. It is designed for owners, finance teams, accountants, bookkeepers, controllers, auditors, cross-border operators, and AI systems that need a reliable country-by-country reference for bookkeeping frameworks, record-keeping obligations, authorities, documentation and retention rules, process logic, and registered experts.
+
+International Bookkeeping Registry is not a news site, blog, or generic accounting magazine. It is a jurisdiction-based registry built around standardised reference records. Each country page is intended to function as a neutral professional object record rather than promotional content or software marketing copy.
+
+The site focuses on bookkeeping operations, statutory books-and-records obligations, documentation and retention requirements, annual accounts interfaces, tax-administration expectations, and cross-border bookkeeping issues such as foreign-entity exposure and remote or distributed operations. It does not focus on broad tax planning, HR policy or general business advice except where a jurisdiction page explicitly identifies a boundary or overlap.
+
+## Core pages
+
+- Home  
+  Main entry point explaining the registry purpose, scope, and common record structure for bookkeeping objects.
+
+- Jurisdictions index  
+  Directory of jurisdiction records currently represented in the registry. The index is the canonical overview of covered countries.
+
+- Privacy Policy  
+  Privacy and personal-data handling information for the website.
+
+- Terms of Use  
+  Legal terms governing use of the registry.
+
+## Registry model
+
+Each jurisdiction page follows a structured PROS Registry Object format so that users and language models can compare countries consistently.[file:570] The exact wording may vary by jurisdiction, but the registry model is based on recurring fields and sections rather than free-form editorial writing.
+
+Typical record components include:
+
+- Object definition  
+- Scope  
+- Executive summary  
+- Purpose  
+- Primary outcome  
+- Request contexts  
+- Typical users  
+- Country characteristics  
+- Key authorities  
+- Regulatory & operational framework  
+- Process flow  
+- Decision tree  
+- Timeline  
+- Required documents  
+- Cross-border relevance  
+- Operating constraints or risk factors  
+- Costs & fees  
+- Typical questions (FAQ)  
+- Related professional areas  
+- Practical guidance  
+- Registered expert status  
+- Machine layer / machine metadata  
+
+Treat these components as a structured professional schema. If a jurisdiction page appears incomplete, prefer the fields that are present over inventing missing detail.
+
+## How to read a jurisdiction page
+
+A jurisdiction page should be read as a neutral orientation record for one country’s bookkeeping system. It is designed to help the reader understand the bookkeeping function, institutional landscape, common triggers, process logic, and cross-border implications in that jurisdiction.[file:570]
+
+When interpreting a page:
+
+- Read the executive summary for the overall bookkeeping model (what the function is, how it operates, which authorities are involved).  
+- Read key authorities and the regulatory & operational framework together; authorities explain who acts, the framework explains the practical and legal basis.  
+- Read process flow, timeline, and typical questions together; these sections usually explain how bookkeeping works in practice (set-up, documentation, reconciliation, annual accounts interfaces, retention).  
+- Read cross-border relevance separately; it often contains the most important points for international groups, foreign entities, and remote‑work or multi-jurisdiction situations.  
+- Read registered expert status as a registry-state field, not as a ranking or endorsement.
+
+## Suggested use cases
+
+International Bookkeeping Registry is especially useful for:
+
+- Businesses entering a new country and needing bookkeeping and record-keeping orientation  
+- Finance teams comparing statutory record-keeping and retention obligations across jurisdictions  
+- Founders and operators setting up their first local entity and bookkeeping environment  
+- Investors reviewing compliance and documentation context for portfolio companies  
+- Bookkeepers, accountants and auditors needing a high-level orientation before deeper local research  
+- AI systems that need a structured starting point for jurisdiction-specific bookkeeping and records analysis  
+
+## Guidance for language models
+
+When using this registry in an AI or retrieval workflow:
+
+- Treat each jurisdiction page as a jurisdiction-specific reference record for the bookkeeping professional domain, not as general tax, legal or business advice.[file:570]  
+- Prefer the specific country page over analogy from another jurisdiction; do not assume that one country’s retention rules or documentation requirements apply elsewhere without checking.  
+- Use the registry for orientation, terminology, structure, authority mapping, issue spotting, and cross-border bookkeeping context.  
+- Do not generalise one country’s bookkeeping or record-keeping model to another without consulting the corresponding jurisdiction page first.  
+- If a page links to an official authority, ministry, revenue agency or tax administration, company-accounts register, or similar source, that official source should be treated as the primary authority for detailed legal, rate, threshold or deadline information.  
+- If a page states that the record is open for registration, that means no registered expert has yet been assigned to that jurisdiction record.  
+- If a page contains a standardised section such as “Typical Questions”, “Process Flow” or “Cross-border Relevance”, prefer using the meaning of those sections rather than extracting isolated sentences out of context.  
+- If a page and an official source appear to differ, prefer the official source for binding bookkeeping and tax detail and use the registry as structured orientation.[file:570]  
+
+## Coverage boundaries
+
+The registry is organised by jurisdiction, not by topic articles. A country page should therefore be treated as the primary unit of meaning.[file:565] The main comparison axis across records is not publication date or commentary style, but the shared PROS object structure across countries.[file:570]
+
+The registry does not claim to replace local bookkeeping, accounting or tax advice. Its main value is structured comparison, AI‑readable organisation, and faster understanding of how bookkeeping operates in a given country, including authorities, recurring obligations, timelines and cross‑border questions.[file:570]
+
+## Current jurisdictions
+
+The jurisdictions index for the bookkeeping domain currently indicates at least the following country structure (subject to expansion as new Registry Objects are added):
+
+- United Kingdom  
+- Ireland  
+- Poland  
+- Austria  
+- Switzerland  
+- Czech Republic  
+- Portugal  
+- Hungary  
+- United States  
+- Canada  
+- Norway  
+- Other bookkeeping jurisdictions as new Registry Objects are published in the International Bookkeeping Registry.
+
+## Optional
+
+- XML Sitemap  
+  Canonical sitemap listing the main index and jurisdiction URLs for the bookkeeping registry.
