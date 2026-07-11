@@ -1,98 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Core registry pages -->
-  <url>
-    <loc>https://bookkeepingregistry.org/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/privacy-policy/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/terms-of-use/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Map – International Bookkeeping Registry</title>
+  <meta name="description" content="HTML sitemap for the International Bookkeeping Registry, listing core pages and all current bookkeeping jurisdiction records.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://bookkeepingregistry.org/sitemap/">
+  <link rel="stylesheet" href="https://bookkeepingregistry.org/css/registry.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <!-- Europe -->
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/united-kingdom/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/ireland/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/poland/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/austria/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/switzerland/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/czech-republic/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/portugal/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/hungary/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/norway/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <div class="registry-container">
+    <header class="registry-header">
+      <nav aria-label="Breadcrumb" class="registry-breadcrumb">
+        <a href="https://bookkeepingregistry.org" target="_blank" rel="noopener noreferrer">Home</a>
+        <span aria-hidden="true"> &rsaquo; </span>
+        <span aria-current="page">Site Map</span>
+      </nav>
 
-  <!-- North America -->
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/united-states/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bookkeepingregistry.org/jurisdictions/canada/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-</urlset>
+      <div class="registry-metadata">
+        INTERNATIONAL BOOKKEEPING REGISTRY<br>
+        Page Type.......................HTML Site Map<br>
+        Domain..........................bookkeepingregistry.org<br>
+        Last Updated....................2026-07-11
+      </div>
+
+      <h1 class="registry-title">SITE MAP</h1>
+      <div class="registry-subtitle">
+        BOOKKEEPING REGISTRY &mdash; CORE PAGES AND JURISDICTIONS
+      </div>
+    </header>
+
+    <main id="main-content" aria-label="Site Map">
+      <article>
+        <section class="registry-section" id="overview">
+          <div class="registry-section-title">Overview</div>
+          <p>
+            This HTML sitemap lists the main entry pages and all current jurisdiction records for the International Bookkeeping Registry.
+          </p>
+        </section>
+
+        <section class="registry-section" id="core-pages">
+          <div class="registry-section-title">Core Pages</div>
+          <ul class="registry-nav-list">
+            <li><a href="https://bookkeepingregistry.org/">Home</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/">Jurisdictions index</a></li>
+            <li><a href="https://bookkeepingregistry.org/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="https://bookkeepingregistry.org/terms-of-use/">Terms of Use</a></li>
+            <li><a href="https://bookkeepingregistry.org/sitemap/">Site Map (this page)</a></li>
+          </ul>
+        </section>
+
+        <section class="registry-section" id="jurisdictions">
+          <div class="registry-section-title">Jurisdictions</div>
+          <p>
+            The following jurisdiction records are currently published for the bookkeeping domain. Each link leads to one PROS Registry Object covering bookkeeping in that country.
+          </p>
+
+          <h2 class="registry-section-title">Europe</h2>
+          <ul class="registry-nav-list">
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/sweden/">Sweden &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/germany/">Germany &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/denmark/">Denmark &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/norway/">Norway &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/finland/">Finland &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/netherlands/">Netherlands &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/belgium/">Belgium &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/france/">France &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/spain/">Spain &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/italy/">Italy &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/united-kingdom/">United Kingdom &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/ireland/">Ireland &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/poland/">Poland &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/austria/">Austria &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/switzerland/">Switzerland &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/czech-republic/">Czech Republic &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/portugal/">Portugal &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/hungary/">Hungary &mdash; Bookkeeping</a></li>
+          </ul>
+
+          <h2 class="registry-section-title">North America</h2>
+          <ul class="registry-nav-list">
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/united-states/">United States &mdash; Bookkeeping</a></li>
+            <li><a href="https://bookkeepingregistry.org/jurisdictions/canada/">Canada &mdash; Bookkeeping</a></li>
+          </ul>
+        </section>
+
+        <section class="registry-section" id="machine-layer">
+          <div class="registry-section-title">Machine Notes</div>
+          <p>
+            This sitemap is intended for human readers and AI systems that need a quick overview of available bookkeeping jurisdiction records. For crawling and indexation, use the XML sitemap at <code>/sitemap.xml</code>, which mirrors the URLs listed above.
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="registry-footer">
+      <div class="registry-footer-inner">
+        <div class="registry-footer-meta">
+          <span class="registry-footer-brand">International Bookkeeping Registry</span>
+          <span>END OF SITEMAP</span>
+          <span>Domain........................bookkeepingregistry.org</span>
+          <span>Scope.........................Bookkeeping Registry Objects</span>
+        </div>
+
+        <nav class="registry-footer-nav" aria-label="Footer navigation">
+          <a href="https://bookkeepingregistry.org/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://bookkeepingregistry.org/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+          <a href="https://bookkeepingregistry.org/jurisdictions/" target="_blank" rel="noopener noreferrer">Jurisdictions</a>
+        </nav>
+
+        <p class="registry-footer-copy">
+          &copy; <span id="current-year">2026</span> International Bookkeeping Registry. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
