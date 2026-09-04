@@ -7,16 +7,24 @@
 
   <title>Jurisdiction Index – International Bookkeeping Registry</title>
 
-  <meta name="description" content="Jurisdiction index for the International Bookkeeping Registry. List of jurisdictions covered by the registry for bookkeeping frameworks, documentation rules and bookkeeping compliance.">
+  <meta name="description" content="Structured jurisdiction index for the International Bookkeeping Registry, covering international, regional, national and subnational bookkeeping frameworks, accounting records, documentation rules and bookkeeping compliance.">
 
   <link rel="canonical" href="https://bookkeepingregistry.org/jurisdictions">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Jurisdiction Index – International Bookkeeping Registry">
-  <meta property="og:description" content="Index of jurisdictions represented in the International Bookkeeping Registry, each linking to a jurisdiction record for bookkeeping in that country.">
+  <meta property="og:description" content="Structured index of international, regional, national and subnational bookkeeping registry records, each linking to the relevant jurisdiction framework.">
   <meta property="og:url" content="https://bookkeepingregistry.org/jurisdictions">
   <meta property="og:site_name" content="International Bookkeeping Registry">
+
+  <!-- Dublin Core -->
+  <meta name="DC.title" content="Jurisdiction Index – International Bookkeeping Registry">
+  <meta name="DC.subject" content="International Bookkeeping Jurisdictions Accounting Records Financial Reporting Tax Documentation VAT GST Cross-border Bookkeeping">
+  <meta name="DC.coverage" content="Worldwide">
+  <meta name="DC.language" content="en">
+  <meta name="DC.type" content="Text">
+  <meta name="DC.format" content="text/html">
 
   <!-- Registry CSS -->
   <link rel="stylesheet" href="https://bookkeepingregistry.org/css/registry.css">
@@ -25,136 +33,435 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Jurisdiction Index – International Bookkeeping Registry",
-    "url": "https://bookkeepingregistry.org/jurisdictions",
-    "itemListOrder": "https://schema.org/ItemListOrderAscending",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Sweden",
-        "url": "https://bookkeepingregistry.org/jurisdictions/sweden"
+        "@type": "WebSite",
+        "@id": "https://bookkeepingregistry.org/website",
+        "name": "International Bookkeeping Registry",
+        "url": "https://bookkeepingregistry.org",
+        "description": "Professional registry of bookkeeping jurisdictions, operating frameworks, authorities, process layers and registered experts.",
+        "publisher": {
+          "@id": "https://bookkeepingregistry.org/organization"
+        }
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Germany",
-        "url": "https://bookkeepingregistry.org/jurisdictions/germany"
+        "@type": "Organization",
+        "@id": "https://bookkeepingregistry.org/organization",
+        "name": "International Bookkeeping Registry",
+        "url": "https://bookkeepingregistry.org",
+        "description": "International registry covering bookkeeping frameworks, authorities, reporting structures and registered experts across jurisdictions.",
+        "areaServed": "Worldwide"
       },
       {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Denmark",
-        "url": "https://bookkeepingregistry.org/jurisdictions/denmark"
+        "@type": "WebPage",
+        "@id": "https://bookkeepingregistry.org/jurisdictions/webpage",
+        "url": "https://bookkeepingregistry.org/jurisdictions",
+        "name": "Jurisdiction Index – International Bookkeeping Registry",
+        "description": "Structured jurisdiction index covering international, regional, national and subnational bookkeeping records.",
+        "inLanguage": "en",
+        "isPartOf": {
+          "@id": "https://bookkeepingregistry.org/website"
+        },
+        "mainEntity": {
+          "@id": "https://bookkeepingregistry.org/jurisdictions/itemlist"
+        },
+        "accessibilityFeature": "structuredNavigation"
       },
       {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Norway",
-        "url": "https://bookkeepingregistry.org/jurisdictions/norway"
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Finland",
-        "url": "https://bookkeepingregistry.org/jurisdictions/finland"
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "name": "Netherlands",
-        "url": "https://bookkeepingregistry.org/jurisdictions/netherlands"
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "name": "Belgium",
-        "url": "https://bookkeepingregistry.org/jurisdictions/belgium"
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "name": "France",
-        "url": "https://bookkeepingregistry.org/jurisdictions/france"
-      },
-      {
-        "@type": "ListItem",
-        "position": 9,
-        "name": "Spain",
-        "url": "https://bookkeepingregistry.org/jurisdictions/spain"
-      },
-      {
-        "@type": "ListItem",
-        "position": 10,
-        "name": "Italy",
-        "url": "https://bookkeepingregistry.org/jurisdictions/italy"
-      },
-      {
-        "@type": "ListItem",
-        "position": 11,
-        "name": "United Kingdom",
-        "url": "https://bookkeepingregistry.org/jurisdictions/united-kingdom"
-      },
-      {
-        "@type": "ListItem",
-        "position": 12,
-        "name": "Ireland",
-        "url": "https://bookkeepingregistry.org/jurisdictions/ireland"
-      },
-      {
-        "@type": "ListItem",
-        "position": 13,
-        "name": "Poland",
-        "url": "https://bookkeepingregistry.org/jurisdictions/poland"
-      },
-      {
-        "@type": "ListItem",
-        "position": 14,
-        "name": "Austria",
-        "url": "https://bookkeepingregistry.org/jurisdictions/austria"
-      },
-      {
-        "@type": "ListItem",
-        "position": 15,
-        "name": "Switzerland",
-        "url": "https://bookkeepingregistry.org/jurisdictions/switzerland"
-      },
-      {
-        "@type": "ListItem",
-        "position": 16,
-        "name": "Czech Republic",
-        "url": "https://bookkeepingregistry.org/jurisdictions/czech-republic"
-      },
-      {
-        "@type": "ListItem",
-        "position": 17,
-        "name": "Portugal",
-        "url": "https://bookkeepingregistry.org/jurisdictions/portugal"
-      },
-      {
-        "@type": "ListItem",
-        "position": 18,
-        "name": "Hungary",
-        "url": "https://bookkeepingregistry.org/jurisdictions/hungary"
-      },
-      {
-        "@type": "ListItem",
-        "position": 19,
-        "name": "United States",
-        "url": "https://bookkeepingregistry.org/jurisdictions/united-states"
-      },
-      {
-        "@type": "ListItem",
-        "position": 20,
-        "name": "Canada",
-        "url": "https://bookkeepingregistry.org/jurisdictions/canada"
+        "@type": "ItemList",
+        "@id": "https://bookkeepingregistry.org/jurisdictions/itemlist",
+        "name": "Jurisdiction Index – International Bookkeeping Registry",
+        "url": "https://bookkeepingregistry.org/jurisdictions",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": 63,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "International",
+            "url": "https://bookkeepingregistry.org/jurisdictions/international"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Europe",
+            "url": "https://bookkeepingregistry.org/jurisdictions/europe"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Australia",
+            "url": "https://bookkeepingregistry.org/jurisdictions/australia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Austria",
+            "url": "https://bookkeepingregistry.org/jurisdictions/austria"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Belgium",
+            "url": "https://bookkeepingregistry.org/jurisdictions/belgium"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Brazil",
+            "url": "https://bookkeepingregistry.org/jurisdictions/brazil"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Bulgaria",
+            "url": "https://bookkeepingregistry.org/jurisdictions/bulgaria"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Canada",
+            "url": "https://bookkeepingregistry.org/jurisdictions/canada"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Canada – Alberta",
+            "url": "https://bookkeepingregistry.org/jurisdictions/canada/alberta"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Canada – British Columbia",
+            "url": "https://bookkeepingregistry.org/jurisdictions/canada/british-columbia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Canada – Ontario",
+            "url": "https://bookkeepingregistry.org/jurisdictions/canada/ontario"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "name": "Canada – Quebec",
+            "url": "https://bookkeepingregistry.org/jurisdictions/canada/quebec"
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "name": "China",
+            "url": "https://bookkeepingregistry.org/jurisdictions/china"
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "name": "Croatia",
+            "url": "https://bookkeepingregistry.org/jurisdictions/croatia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "name": "Czech Republic",
+            "url": "https://bookkeepingregistry.org/jurisdictions/czech-republic"
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "name": "Denmark",
+            "url": "https://bookkeepingregistry.org/jurisdictions/denmark"
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "name": "Finland",
+            "url": "https://bookkeepingregistry.org/jurisdictions/finland"
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "name": "France",
+            "url": "https://bookkeepingregistry.org/jurisdictions/france"
+          },
+          {
+            "@type": "ListItem",
+            "position": 19,
+            "name": "Germany",
+            "url": "https://bookkeepingregistry.org/jurisdictions/germany"
+          },
+          {
+            "@type": "ListItem",
+            "position": 20,
+            "name": "Greece",
+            "url": "https://bookkeepingregistry.org/jurisdictions/greece"
+          },
+          {
+            "@type": "ListItem",
+            "position": 21,
+            "name": "Hong Kong",
+            "url": "https://bookkeepingregistry.org/jurisdictions/hong-kong"
+          },
+          {
+            "@type": "ListItem",
+            "position": 22,
+            "name": "Hungary",
+            "url": "https://bookkeepingregistry.org/jurisdictions/hungary"
+          },
+          {
+            "@type": "ListItem",
+            "position": 23,
+            "name": "India",
+            "url": "https://bookkeepingregistry.org/jurisdictions/india"
+          },
+          {
+            "@type": "ListItem",
+            "position": 24,
+            "name": "Ireland",
+            "url": "https://bookkeepingregistry.org/jurisdictions/ireland"
+          },
+          {
+            "@type": "ListItem",
+            "position": 25,
+            "name": "Israel",
+            "url": "https://bookkeepingregistry.org/jurisdictions/israel"
+          },
+          {
+            "@type": "ListItem",
+            "position": 26,
+            "name": "Italy",
+            "url": "https://bookkeepingregistry.org/jurisdictions/italy"
+          },
+          {
+            "@type": "ListItem",
+            "position": 27,
+            "name": "Japan",
+            "url": "https://bookkeepingregistry.org/jurisdictions/japan"
+          },
+          {
+            "@type": "ListItem",
+            "position": 28,
+            "name": "Luxembourg",
+            "url": "https://bookkeepingregistry.org/jurisdictions/luxembourg"
+          },
+          {
+            "@type": "ListItem",
+            "position": 29,
+            "name": "Mexico",
+            "url": "https://bookkeepingregistry.org/jurisdictions/mexico"
+          },
+          {
+            "@type": "ListItem",
+            "position": 30,
+            "name": "Netherlands",
+            "url": "https://bookkeepingregistry.org/jurisdictions/netherlands"
+          },
+          {
+            "@type": "ListItem",
+            "position": 31,
+            "name": "New Zealand",
+            "url": "https://bookkeepingregistry.org/jurisdictions/new-zealand"
+          },
+          {
+            "@type": "ListItem",
+            "position": 32,
+            "name": "Norway",
+            "url": "https://bookkeepingregistry.org/jurisdictions/norway"
+          },
+          {
+            "@type": "ListItem",
+            "position": 33,
+            "name": "Poland",
+            "url": "https://bookkeepingregistry.org/jurisdictions/poland"
+          },
+          {
+            "@type": "ListItem",
+            "position": 34,
+            "name": "Portugal",
+            "url": "https://bookkeepingregistry.org/jurisdictions/portugal"
+          },
+          {
+            "@type": "ListItem",
+            "position": 35,
+            "name": "Qatar",
+            "url": "https://bookkeepingregistry.org/jurisdictions/qatar"
+          },
+          {
+            "@type": "ListItem",
+            "position": 36,
+            "name": "Romania",
+            "url": "https://bookkeepingregistry.org/jurisdictions/romania"
+          },
+          {
+            "@type": "ListItem",
+            "position": 37,
+            "name": "Saudi Arabia",
+            "url": "https://bookkeepingregistry.org/jurisdictions/saudi-arabia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 38,
+            "name": "Singapore",
+            "url": "https://bookkeepingregistry.org/jurisdictions/singapore"
+          },
+          {
+            "@type": "ListItem",
+            "position": 39,
+            "name": "Slovakia",
+            "url": "https://bookkeepingregistry.org/jurisdictions/slovakia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 40,
+            "name": "Slovenia",
+            "url": "https://bookkeepingregistry.org/jurisdictions/slovenia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 41,
+            "name": "South Korea",
+            "url": "https://bookkeepingregistry.org/jurisdictions/south-korea"
+          },
+          {
+            "@type": "ListItem",
+            "position": 42,
+            "name": "Spain",
+            "url": "https://bookkeepingregistry.org/jurisdictions/spain"
+          },
+          {
+            "@type": "ListItem",
+            "position": 43,
+            "name": "Sweden",
+            "url": "https://bookkeepingregistry.org/jurisdictions/sweden"
+          },
+          {
+            "@type": "ListItem",
+            "position": 44,
+            "name": "Switzerland",
+            "url": "https://bookkeepingregistry.org/jurisdictions/switzerland"
+          },
+          {
+            "@type": "ListItem",
+            "position": 45,
+            "name": "United Arab Emirates",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-arab-emirates"
+          },
+          {
+            "@type": "ListItem",
+            "position": 46,
+            "name": "United Kingdom",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-kingdom"
+          },
+          {
+            "@type": "ListItem",
+            "position": 47,
+            "name": "United Kingdom – England and Wales",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-kingdom/england-wales"
+          },
+          {
+            "@type": "ListItem",
+            "position": 48,
+            "name": "United Kingdom – Northern Ireland",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-kingdom/northern-ireland"
+          },
+          {
+            "@type": "ListItem",
+            "position": 49,
+            "name": "United Kingdom – Scotland",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-kingdom/scotland"
+          },
+          {
+            "@type": "ListItem",
+            "position": 50,
+            "name": "United States",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states"
+          },
+          {
+            "@type": "ListItem",
+            "position": 51,
+            "name": "United States – California",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/california"
+          },
+          {
+            "@type": "ListItem",
+            "position": 52,
+            "name": "United States – Delaware",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/delaware"
+          },
+          {
+            "@type": "ListItem",
+            "position": 53,
+            "name": "United States – Florida",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/florida"
+          },
+          {
+            "@type": "ListItem",
+            "position": 54,
+            "name": "United States – Georgia",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/georgia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 55,
+            "name": "United States – Illinois",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/illinois"
+          },
+          {
+            "@type": "ListItem",
+            "position": 56,
+            "name": "United States – Massachusetts",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/massachusetts"
+          },
+          {
+            "@type": "ListItem",
+            "position": 57,
+            "name": "United States – Nevada",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/nevada"
+          },
+          {
+            "@type": "ListItem",
+            "position": 58,
+            "name": "United States – New Jersey",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/new-jersey"
+          },
+          {
+            "@type": "ListItem",
+            "position": 59,
+            "name": "United States – New York",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/new-york"
+          },
+          {
+            "@type": "ListItem",
+            "position": 60,
+            "name": "United States – Pennsylvania",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/pennsylvania"
+          },
+          {
+            "@type": "ListItem",
+            "position": 61,
+            "name": "United States – Texas",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/texas"
+          },
+          {
+            "@type": "ListItem",
+            "position": 62,
+            "name": "United States – Washington",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/washington"
+          },
+          {
+            "@type": "ListItem",
+            "position": 63,
+            "name": "United States – Wyoming",
+            "url": "https://bookkeepingregistry.org/jurisdictions/united-states/wyoming"
+          }
+        ]
       }
     ]
   }
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   <div class="registry-container">
     <header class="registry-header">
       <div class="registry-metadata">
@@ -171,120 +478,322 @@
       </div>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="registry-section">
         <div class="registry-section-title">RECORDS</div>
         <div style="line-height:1.75; font-size:0.95em;">
-          The index lists jurisdictions currently represented in the International Bookkeeping Registry. Each entry links to the corresponding jurisdiction record. [file:4][file:3][file:5]
+          The index lists international, regional, national and subnational records currently represented in the International Bookkeeping Registry. Records are organised by jurisdictional hierarchy to distinguish worldwide and regional reference objects from country, state, provincial and constituent-country records.
         </div>
       </section>
 
       <section class="registry-section">
-        <div class="registry-section-title">JURISDICTIONS FIRST 20</div>
+        <div class="registry-section-title">INTERNATIONAL AND REGIONAL</div>
         <table class="registry-table">
           <tr>
-            <td>Sweden</td>
-            <td><a href="sweden">Bookkeeping Sweden</a></td>
+            <td>International</td>
+            <td><a href="international">International Bookkeeping</a></td>
           </tr>
           <tr>
-            <td>Germany</td>
-            <td><a href="germany">Bookkeeping Germany</a></td>
+            <td>Europe</td>
+            <td><a href="europe">Bookkeeping in Europe</a></td>
           </tr>
+        </table>
+      </section>
+
+      <section class="registry-section">
+        <div class="registry-section-title">EUROPE</div>
+        <table class="registry-table">
           <tr>
-            <td>Denmark</td>
-            <td><a href="denmark">Bookkeeping Denmark</a></td>
-          </tr>
-          <tr>
-            <td>Norway</td>
-            <td><a href="norway">Bookkeeping Norway</a></td>
-          </tr>
-          <tr>
-            <td>Finland</td>
-            <td><a href="finland">Bookkeeping Finland</a></td>
-          </tr>
-          <tr>
-            <td>Netherlands</td>
-            <td><a href="netherlands">Bookkeeping Netherlands</a></td>
+            <td>Austria</td>
+            <td><a href="austria">Bookkeeping Austria</a></td>
           </tr>
           <tr>
             <td>Belgium</td>
             <td><a href="belgium">Bookkeeping Belgium</a></td>
           </tr>
           <tr>
-            <td>France</td>
-            <td><a href="france">Bookkeeping France</a></td>
+            <td>Bulgaria</td>
+            <td><a href="bulgaria">Bookkeeping Bulgaria</a></td>
           </tr>
           <tr>
-            <td>Spain</td>
-            <td><a href="spain">Bookkeeping Spain</a></td>
-          </tr>
-          <tr>
-            <td>Italy</td>
-            <td><a href="italy">Bookkeeping Italy</a></td>
-          </tr>
-          <tr>
-            <td>United Kingdom</td>
-            <td><a href="united-kingdom">Bookkeeping United Kingdom</a></td>
-          </tr>
-          <tr>
-            <td>Ireland</td>
-            <td><a href="ireland">Bookkeeping Ireland</a></td>
-          </tr>
-          <tr>
-            <td>Poland</td>
-            <td><a href="poland">Bookkeeping Poland</a></td>
-          </tr>
-          <tr>
-            <td>Austria</td>
-            <td><a href="austria">Bookkeeping Austria</a></td>
-          </tr>
-          <tr>
-            <td>Switzerland</td>
-            <td><a href="switzerland">Bookkeeping Switzerland</a></td>
+            <td>Croatia</td>
+            <td><a href="croatia">Bookkeeping Croatia</a></td>
           </tr>
           <tr>
             <td>Czech Republic</td>
             <td><a href="czech-republic">Bookkeeping Czech Republic</a></td>
           </tr>
           <tr>
-            <td>Portugal</td>
-            <td><a href="portugal">Bookkeeping Portugal</a></td>
+            <td>Denmark</td>
+            <td><a href="denmark">Bookkeeping Denmark</a></td>
+          </tr>
+          <tr>
+            <td>Finland</td>
+            <td><a href="finland">Bookkeeping Finland</a></td>
+          </tr>
+          <tr>
+            <td>France</td>
+            <td><a href="france">Bookkeeping France</a></td>
+          </tr>
+          <tr>
+            <td>Germany</td>
+            <td><a href="germany">Bookkeeping Germany</a></td>
+          </tr>
+          <tr>
+            <td>Greece</td>
+            <td><a href="greece">Bookkeeping Greece</a></td>
           </tr>
           <tr>
             <td>Hungary</td>
             <td><a href="hungary">Bookkeeping Hungary</a></td>
           </tr>
           <tr>
+            <td>Ireland</td>
+            <td><a href="ireland">Bookkeeping Ireland</a></td>
+          </tr>
+          <tr>
+            <td>Italy</td>
+            <td><a href="italy">Bookkeeping Italy</a></td>
+          </tr>
+          <tr>
+            <td>Luxembourg</td>
+            <td><a href="luxembourg">Bookkeeping Luxembourg</a></td>
+          </tr>
+          <tr>
+            <td>Netherlands</td>
+            <td><a href="netherlands">Bookkeeping Netherlands</a></td>
+          </tr>
+          <tr>
+            <td>Norway</td>
+            <td><a href="norway">Bookkeeping Norway</a></td>
+          </tr>
+          <tr>
+            <td>Poland</td>
+            <td><a href="poland">Bookkeeping Poland</a></td>
+          </tr>
+          <tr>
+            <td>Portugal</td>
+            <td><a href="portugal">Bookkeeping Portugal</a></td>
+          </tr>
+          <tr>
+            <td>Romania</td>
+            <td><a href="romania">Bookkeeping Romania</a></td>
+          </tr>
+          <tr>
+            <td>Slovakia</td>
+            <td><a href="slovakia">Bookkeeping Slovakia</a></td>
+          </tr>
+          <tr>
+            <td>Slovenia</td>
+            <td><a href="slovenia">Bookkeeping Slovenia</a></td>
+          </tr>
+          <tr>
+            <td>Spain</td>
+            <td><a href="spain">Bookkeeping Spain</a></td>
+          </tr>
+          <tr>
+            <td>Sweden</td>
+            <td><a href="sweden">Bookkeeping Sweden</a></td>
+          </tr>
+          <tr>
+            <td>Switzerland</td>
+            <td><a href="switzerland">Bookkeeping Switzerland</a></td>
+          </tr>
+          <tr>
+            <td>United Kingdom</td>
+            <td><a href="united-kingdom">Bookkeeping United Kingdom</a></td>
+          </tr>
+          <tr>
+            <td>United Kingdom &gt; England and Wales</td>
+            <td><a href="united-kingdom/england-wales">Bookkeeping England and Wales</a></td>
+          </tr>
+          <tr>
+            <td>United Kingdom &gt; Northern Ireland</td>
+            <td><a href="united-kingdom/northern-ireland">Bookkeeping Northern Ireland</a></td>
+          </tr>
+          <tr>
+            <td>United Kingdom &gt; Scotland</td>
+            <td><a href="united-kingdom/scotland">Bookkeeping Scotland</a></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="registry-section">
+        <div class="registry-section-title">ASIA AND MIDDLE EAST</div>
+        <table class="registry-table">
+          <tr>
+            <td>China</td>
+            <td><a href="china">Bookkeeping China</a></td>
+          </tr>
+          <tr>
+            <td>Hong Kong</td>
+            <td><a href="hong-kong">Bookkeeping Hong Kong</a></td>
+          </tr>
+          <tr>
+            <td>India</td>
+            <td><a href="india">Bookkeeping India</a></td>
+          </tr>
+          <tr>
+            <td>Israel</td>
+            <td><a href="israel">Bookkeeping Israel</a></td>
+          </tr>
+          <tr>
+            <td>Japan</td>
+            <td><a href="japan">Bookkeeping Japan</a></td>
+          </tr>
+          <tr>
+            <td>Qatar</td>
+            <td><a href="qatar">Bookkeeping Qatar</a></td>
+          </tr>
+          <tr>
+            <td>Saudi Arabia</td>
+            <td><a href="saudi-arabia">Bookkeeping Saudi Arabia</a></td>
+          </tr>
+          <tr>
+            <td>Singapore</td>
+            <td><a href="singapore">Bookkeeping Singapore</a></td>
+          </tr>
+          <tr>
+            <td>South Korea</td>
+            <td><a href="south-korea">Bookkeeping South Korea</a></td>
+          </tr>
+          <tr>
+            <td>United Arab Emirates</td>
+            <td><a href="united-arab-emirates">Bookkeeping United Arab Emirates</a></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="registry-section">
+        <div class="registry-section-title">OCEANIA</div>
+        <table class="registry-table">
+          <tr>
+            <td>Australia</td>
+            <td><a href="australia">Bookkeeping Australia</a></td>
+          </tr>
+          <tr>
+            <td>New Zealand</td>
+            <td><a href="new-zealand">Bookkeeping New Zealand</a></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="registry-section">
+        <div class="registry-section-title">NORTH AMERICA</div>
+        <table class="registry-table">
+          <tr>
+            <td>Canada</td>
+            <td><a href="canada">Bookkeeping Canada</a></td>
+          </tr>
+          <tr>
+            <td>Canada &gt; Alberta</td>
+            <td><a href="canada/alberta">Bookkeeping Alberta</a></td>
+          </tr>
+          <tr>
+            <td>Canada &gt; British Columbia</td>
+            <td><a href="canada/british-columbia">Bookkeeping British Columbia</a></td>
+          </tr>
+          <tr>
+            <td>Canada &gt; Ontario</td>
+            <td><a href="canada/ontario">Bookkeeping Ontario</a></td>
+          </tr>
+          <tr>
+            <td>Canada &gt; Quebec</td>
+            <td><a href="canada/quebec">Bookkeeping Quebec</a></td>
+          </tr>
+          <tr>
+            <td>Mexico</td>
+            <td><a href="mexico">Bookkeeping Mexico</a></td>
+          </tr>
+          <tr>
             <td>United States</td>
             <td><a href="united-states">Bookkeeping United States</a></td>
           </tr>
           <tr>
-            <td>Canada</td>
-            <td><a href="canada">Bookkeeping Canada</a></td>
+            <td>United States &gt; California</td>
+            <td><a href="united-states/california">Bookkeeping California</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Delaware</td>
+            <td><a href="united-states/delaware">Bookkeeping Delaware</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Florida</td>
+            <td><a href="united-states/florida">Bookkeeping Florida</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Georgia</td>
+            <td><a href="united-states/georgia">Bookkeeping Georgia</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Illinois</td>
+            <td><a href="united-states/illinois">Bookkeeping Illinois</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Massachusetts</td>
+            <td><a href="united-states/massachusetts">Bookkeeping Massachusetts</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Nevada</td>
+            <td><a href="united-states/nevada">Bookkeeping Nevada</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; New Jersey</td>
+            <td><a href="united-states/new-jersey">Bookkeeping New Jersey</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; New York</td>
+            <td><a href="united-states/new-york">Bookkeeping New York</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Pennsylvania</td>
+            <td><a href="united-states/pennsylvania">Bookkeeping Pennsylvania</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Texas</td>
+            <td><a href="united-states/texas">Bookkeeping Texas</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Washington</td>
+            <td><a href="united-states/washington">Bookkeeping Washington</a></td>
+          </tr>
+          <tr>
+            <td>United States &gt; Wyoming</td>
+            <td><a href="united-states/wyoming">Bookkeeping Wyoming</a></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="registry-section">
+        <div class="registry-section-title">SOUTH AMERICA</div>
+        <table class="registry-table">
+          <tr>
+            <td>Brazil</td>
+            <td><a href="brazil">Bookkeeping Brazil</a></td>
           </tr>
         </table>
       </section>
     </main>
 
     <footer class="registry-footer">
-      <div class="registry-container registry-footer-inner">
+      <div class="registry-footer-inner">
         <div class="registry-footer-meta">
           <span class="registry-footer-brand">International Bookkeeping Registry</span>
-          <span>Machine Reference...................BOR-IPR-GLOBAL-002</span>
-          <span>Registry Scope......................Worldwide</span>
-          <span>Record Integrity....................VERIFIED</span>
+          <span>END OF INDEX</span>
+          <span>Classification...................Business &gt; Finance &amp; Administration &gt; Bookkeeping &gt; Jurisdiction Index</span>
+          <span>Machine Reference................BOR-IPR-GLOBAL-003</span>
+          <span>Registry Scope...................Worldwide</span>
+          <span>Record Integrity.................VERIFIED</span>
         </div>
 
         <nav aria-label="Footer navigation" class="registry-footer-nav">
-          <a href="../privacy-policy">Privacy Policy</a>
-          <span aria-hidden="true"> &middot; </span>
-          <a href="../terms-of-use">Terms of Use</a>
-          <span aria-hidden="true"> &middot; </span>
-          <a href="../">Home</a>
+          <a href="https://bookkeepingregistry.org/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://bookkeepingregistry.org/terms-of-use" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+          <a href="https://bookkeepingregistry.org" target="_blank" rel="noopener noreferrer">Home</a>
         </nav>
 
         <p class="registry-footer-copy">
-          <span id="current-year">2026</span> International Bookkeeping Registry. All rights reserved.
+          &copy; <span id="current-year">2026</span> International Bookkeeping Registry. All rights reserved.
         </p>
       </div>
     </footer>
